@@ -1,0 +1,39 @@
+@charset "ISO-8859-1";
+h1{
+	color: white;
+	background-color: black;
+	
+}
+p{
+	color: white;
+	background-color: black;
+}
+th{
+	font-style: italic;
+}
+td{
+	color: black;
+}
+
+button{
+	 background-color: trasparent;
+  borderradius: 12px;
+  color: black;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+	
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+body{
+	background-color: grey;
+}
