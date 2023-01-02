@@ -1,0 +1,134 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Pacifico', cursive;
+}
+.nav-link:hover {
+    color:#3b968a;
+}
+.nav-link{
+    color:#35393a
+}
+
+.btn-primary {
+    background-color:#785dc2;
+    border-color: #785dc2;
+    
+}
+.logo {
+    width: 10rem;
+}
+#heroText{
+    text-align: center;
+    color: white;
+    font-size: 4rem;
+}
+.center{
+
+    text-align: center;
+}
+.heroButton{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+}
+.white{
+    color: white;
+}
+.parimg{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.spazio{
+    margin-bottom: 3rem;
+    
+}
+.imgP{
+   
+    width: 300px;
+    
+}
+.imgsx{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.grad h3{
+    width: 100%;
+    border-bottom: 1px dashed #535353;
+    padding-bottom: 1rem;
+    margin-bottom: 3rem;
+}
+.form h3{
+    width: 100%;
+    border-bottom: 1px dashed #535353;
+    padding-bottom: 1rem;
+    margin-bottom: 3rem; 
+    margin-top: 3rem;
+}
+.form{
+    margin-bottom: 5rem;
+}
+#servizi{
+    padding-top: 10rem;
+    margin:auto;
+}
+.messaggio{
+    height: 258px;
+}
+.dimB{
+    width: 5rem;
+    
+}
+#mainFooter {
+    background:#785dc2;
+    color:#efefef;
+    padding: 1.5rem
+}
+
+.sfondo{
+    background-image: linear-gradient(to bottom, #d1c0d4, #cb9cd9, #bf76de, #ae4ee4, #9612eb);
+}
+
+
+
+
+
+@media (max-width: 991.98px) {
+    .offcanvas-collapse {
+      position: fixed;
+      top: 56px; /* Height of navbar */
+      bottom: 0;
+      left: 100%;
+      width: 100%;
+      padding-right: 1rem;
+      padding-left: 1rem;
+      overflow-y: auto;
+      visibility: hidden;
+      background-color: #343a40;
+      transition: transform .3s ease-in-out, visibility .3s ease-in-out;
+    }
+    .offcanvas-collapse.open {
+      visibility: visible;
+      transform: translateX(-100%);
+
+      z-index:99;
+    }
+  }
+
+  @media (max-width: 550.98px) {
+    .parimg {
+        display: flex;
+        flex-direction: column;
+    }
+  }
+
+  @media (max-width: 692.98px) {
+    #heroText{
+        text-align: center;
+        color: white;
+        font-size: 2rem;
+    }  
+
+  }

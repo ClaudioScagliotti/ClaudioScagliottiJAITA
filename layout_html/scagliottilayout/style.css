@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.25rem;
+}
+img {
+    /* le immagini si adattano al contenitore*/
+    max-width: 100%;
+    
+    height:auto;
+
+}
+/* contenitore generale*/
+.container {  
+    width: 70%;
+    margin: auto;
+}
+/* header*/
+.mainHeader {
+
+    display: flex;
+    justify-content: space-between; /*lavora sul main axis e sposta i figli ai margini opposti*/
+    align-items: center; /*lavora su cross axis e allinea al centro (verticale)*/
+    margin: 1rem 2rem;
+    padding: 10px;
+
+}
+.logo {
+    width: 5rem;
+    height: auto;
+}
+.menu {
+    list-style-type: none;
+    display: flex;
+    font-size: 0.80rem;
+    font-weight: bold;
+}
+
+.menu li { /* tutti gli LI dentro l'elemento con classe .menu*/
+
+    margin-left: 1rem;
+
+} 
+/*fine header*/
+/*inizio main*/
+#corpo{
+    display: flex;
+
+    flex-direction: column; 
+}
+#hero {
+    padding:1rem;
+}
+.box{
+    
+    border-left: 10px solid rgb(226, 194, 10);
+    background-color: rgba(219, 212, 212, 0.295);
+    font-size: 2rem;
+}
+
+.parimg{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.par{
+    width: 100%;
+}
+.testo{
+    display: flex;
+    flex-direction: column;
+}
+.imgP{
+   
+    width: 300px;
+    
+}
+.imgsx{
+    padding-right: 20px;
+}
+#imgdx{
+    padding-left: 20px;
+}
+
+.par2{
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    text-align: right;
+
+}
+
+.spazio{
+    margin-bottom: 3rem;
+}
+/*fine del main*/
+/*footer*/
+footer{
+    display: flex;
+    background-color: rgb(43, 43, 90);
+    color: white;
+    justify-content: space-between;
+    font-family: 'Lato', sans-serif;
+    line-height: 30%;
+    
+    
+}
+.social{
+    filter: invert(100%);
+     display: flex;
+     justify-content: space-between;
+     
+}
+.imgS{
+    height: auto;
+    width: 30px;
+    
+    margin: 0 10px;
+}
+.contatti{
+    font-size: 0.75rem;
+}
+.privacy{
+    font-size: 0.75rem;
+}
+.footerc{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
