@@ -1,0 +1,48 @@
+@charset "ISO-8859-1";
+
+h1{
+	color: #ffe81b;
+	background-color: #ff1616;
+	
+}
+p{
+	color: #ffe81b;
+	background-color: #ff1616;
+}
+th{
+	font-style: inherit;
+	background-color: #ff1616;
+}
+td{
+	color: #ffe81b;
+}
+
+button{
+	 background-color: #ff1616;
+  border-radius: 12px;
+  color: #ffe81b;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+	
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #ff1616;
+  border: none;
+  color: yellow;
+  padding: 12px 20px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+body{
+	background-color: #ffe81b;
+	background-image: url("sfondo.jpeg");
+}
